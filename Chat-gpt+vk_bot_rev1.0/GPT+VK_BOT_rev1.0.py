@@ -4,10 +4,10 @@ import asyncio
 import openai
 import time
 
-openai.api_key = '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'  # ключ API от OpenAI
+openai.api_key = 'sk-D7a0e4KivDTccKPI'  # ключ API от OpenAI
 
 # Инициализация VK API
-vk_session = vk_api.VkApi(token='vk1.a.DO6_MgqBTskT8VRmjM_sDo2DnoRmXw9-sz2OM94lWa_F5dhWQPMv0cjUTCWkzKTRmo-6cZJ1YssXJmzeSWNbzA5vS5QiqkRHYOzhbMuPPgk-s9rKZDg_-Q59zq90XAuGwx8vjgxka38yuBYVqyaAME6eBKdhLR_VDwKgnJzqFxw44KIpJXiYd1cQcA2nK7rAHej6fzqX76ehjKACXuiYug')  #  токен доступа VK API
+vk_session = vk_api.VkApi(token='vk1.a.DO6_Q59zq90XAuGwx8vjgxka38yuBYVqyaAME6eBKdhLR_VDwKgnJzqFxw44KIpJXiYd1cQcA2nK7rAHej6fzqX76ehjKACXuiYug')  #  токен доступа VK API
 vk = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
 
